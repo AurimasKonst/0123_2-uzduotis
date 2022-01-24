@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>2uzduotis</title>
+   <style>
+      * {
+         box-sizing: border-box;
+      }
+
+      body {
+         margin: 0;
+         padding: 0;
+         height: 100%;
+      }
+
+      .background {
+         /*   background-color: rgb(91, 211, 107);*/
+         background-image: url("background.jpg");
+         background-size: contain;
+      }
+
+      main {
+         /*        background-color: yellow;*/
+         margin-bottom: 1%;
+      }
+
+      span {
+         font-weight: bold;
+      }
+
+      #left {
+         font-size: 20px;
+         width: 100%;
+         display: block;
+         float: left;
+         width: 64%;
+         line-height: 1.2;
+         padding: 1.5%;
+         /*    background-color: red;*/
+      }
+
+      #right {
+         font-size: 10px;
+         display: block;
+         float: left;
+         width: 36%;
+         padding: 1.5%;
+         line-height: 1.4;
+         /*     background-color: green;*/
+      }
+
+      img {
+
+         float: left;
+         /*       background-color: rgb(184, 113, 28);*/
+         margin-bottom: 0%;
+         border: 1px solid rgb(196, 193, 193);
+         padding: 0.5%;
+         text-align: center;
+         width: 18%;
+         /*     height: 20%;*/
+         margin-right: 2%;
+         margin-top: 1%;
+      }
+
+      .contact img:first-child {
+         margin-left: 1%;
+      }
+
+      .contact img:last-child {
+         margin-right: 1%;
+      }
+
+      .col:first-child {
+         margin-left: 1%;
+      }
+
+      .col:last-child {
+         margin-right: 1%;
+      }
+
+      .name {
+         display: block;
+         /*     background-color: rgb(184, 113, 28);*/
+         margin: 0;
+
+      }
+
+      .clear::after {
+         clear: both;
+         content: "";
+         display: table;
+      }
+
+      .col {
+         /*     background-color: rgb(184, 113, 28);*/
+         display: block;
+         float: left;
+         /*     border: 1px solid rgb(196, 193, 193);*/
+         text-align: center;
+         width: 18%;
+         margin-right: 2%;
+         margin-top: 1%;
+      }
+
+      .mail {
+         font-size: 8px;
+         margin: 2%;
+      }
+
+      .name {
+         font-size: 12px;
+      }
+
+      .position {
+         font-weight: bold;
+         margin-bottom: 3%;
+         font-size: 10px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="background">
+      <header class="clear">
+         <div id="left">We do everythink with our core values of <span>honesty</span>, hard <span>work</span>, and
+            <span>trust</span>.
+         </div>
+         <div id="right">
+            <span>We believe these characteristics</span> shoud influence everything we do in business an in
+            life.
+            We sinclery enjoy the work do, and our clients get to reap the benefits.
+         </div>
+      </header>
+      <main class="clear">
+         <div class="contact">
+            <div>
+               <img src="photo1.jpg" alt="img1">
+               <img src="photo2.jpg" alt="img2">
+               <img src="photo3.jpg" alt="img3">
+               <img src="photo4.jpg" alt="img4">
+               <img src="photo5.jpg" alt="img5">
+            </div>
+         </div>
+      </main>
+      <footer class="clear">
+         <div class="col">
+            <div class="name">
+               ERIC DOWNS
+            </div>
+            <div class="position">
+               Cretive Director
+            </div>
+            <div class="mail">
+               eric@grainandmortar.com
+            </div>
+         </div>
+         <div class="col">
+            <div class="name">
+               MIKE DEKAY
+            </div>
+            <div class="position">
+               Cretive Director
+            </div>
+            <div class="mail">
+               mike@grainandmortar.com
+            </div>
+         </div>
+         <div class="col">
+            <div class="name">
+               KRISTIN DEKAY
+            </div>
+            <div class="position">
+               Operations Director
+            </div>
+            <div class="mail">
+               kristin@grainandmortar.com
+            </div>
+         </div>
+         <div class="col">
+            <div class="name">
+               MIRANDA BOUCK
+            </div>
+            <div class="position">
+               Designer
+            </div>
+            <div class="mail">
+               miranda@grainandmortar.com
+            </div>
+         </div>
+         <div class="col">
+            <div class="name">
+               JESSE HARDING
+            </div>
+            <div class="position">
+               Designer
+            </div>
+            <div class="mail">
+               jesse@grainandmortar.com
+            </div>
+         </div>
+      </footer>
+   </div>
+
+</body>
+
+</html>
