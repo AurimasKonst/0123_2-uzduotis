@@ -3,12 +3,12 @@
 
 <head>
    <meta charset="UTF-8">
-   <title>2uzduotis</title>
+   <title>2_uzduotis_2301</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <style>
       * {
          box-sizing: border-box;
       }
-
 
       body {
          margin: 0;
@@ -16,7 +16,6 @@
          background-image: url("background.jpg");
          background-size: contain;
          height: 100%;
-
       }
 
       main {
@@ -29,7 +28,7 @@
       }
 
       #left {
-         font-size: 20px;
+         font-size: 2rem;
          width: 100%;
          display: block;
          float: left;
@@ -40,9 +39,9 @@
       }
 
       #right {
-         font-size: 10px;
+         font-size: 1rem;
          display: block;
-         float: left;
+         float: right;
          width: 36%;
          padding: 1.5%;
          line-height: 1.4;
@@ -50,8 +49,7 @@
       }
 
       img {
-
-         display: flexbox;
+         display: inline-block;
          /*   background-color: rgb(184, 113, 28);*/
          margin-bottom: 0%;
          border: 1px solid rgb(196, 193, 193);
@@ -63,13 +61,9 @@
          margin-top: 1%;
       }
 
-
-      .contact img:first-child {
-         margin-left: 1%;
-      }
-
-      .contact img:last-child {
-         margin-right: 1%;
+      .name p {
+         margin: 0%;
+         padding: 0%;
       }
 
       .col:first-child {
@@ -83,43 +77,45 @@
       .name {
          display: block;
          /*     background-color: rgb(184, 113, 28);*/
-         margin: 0;
 
+         margin: 0%;
+         margin-top: 7%;
       }
 
       .clear::after {
          clear: both;
          content: "";
-         display: table;
+         display: block;
       }
 
       .col {
-         /*     background-color: rgb(184, 113, 28);*/
-         display: block;
-         float: left;
+         /*    background-color: rgb(184, 113, 28);*/
+         display: inline-block;
+         /*      float: left;*/
+
          /*     border: 1px solid rgb(196, 193, 193);*/
          text-align: center;
-         width: 18%;
-         margin-right: 2%;
+         width: 18.5%;
+         margin-right: 1%;
          margin-top: 1%;
+         margin-bottom: 3%;
 
       }
 
       .mail {
-         font-size: 12px;
+         font-size: 1rem;
          margin: 2%;
       }
 
       .name {
-         font-size: 20px;
+         font-size: 1.2rem;
       }
 
       .position {
          font-weight: bold;
-         margin-bottom: 2%;
-         font-size: 12px;
+         margin: 0%;
+         font-size: 1rem;
       }
-
 
       @media screen and (max-width: 900px) {
 
@@ -130,13 +126,20 @@
          }
 
          .col {
-            float: left;
             width: 200px;
-            display: table;
-
+            display: inline-block;
+            /*         float: left;*/
+            margin-left: 1%;
+            margin-bottom: 3%;
          }
 
+         /*    .col:first-child {
+            margin-left: 1%;
+         }
 
+         .col:last-child {
+            margin-right: 1%;*/
+      }
       }
    </style>
 </head>
@@ -156,74 +159,64 @@
       <main>
          <div class="contact">
             <div class="col">
-               <div>
-                  <img src="photo1.jpg" alt="img1">
-               </div>
-               <div class="name">
+               <img src="photo1.jpg" alt="img1">
+               <p class="name">
                   ERIC DOWNS
-               </div>
-               <div class="position">
+               </p>
+               <p class="position">
                   Cretive Director
-               </div>
-               <div class="mail">
+               </p>
+               <p class="mail">
                   eric@grainandmortar.com
-               </div>
+               </p>
             </div>
             <div class="col">
-               <div>
-                  <img src="photo2.jpg" alt="img2">
-               </div>
-               <div class="name">
+               <img src="photo2.jpg" alt="img2">
+               <p class="name">
                   MIKE DEKAY
-               </div>
-               <div class="position">
+               </p>
+               <p class="position">
                   Cretive Director
-               </div>
-               <div class="mail">
+               </p>
+               <p class="mail">
                   mike@grainandmortar.com
-               </div>
+               </p>
             </div>
             <div class="col">
-               <div>
-                  <img src="photo3.jpg" alt="img3">
-               </div>
-               <div class="name">
+               <img src="photo3.jpg" alt="img3">
+               <p class="name">
                   KRISTIN DEKAY
-               </div>
-               <div class="position">
+               </p>
+               <p class="position">
                   Operations Director
-               </div>
-               <div class="mail">
+               </p>
+               <p class="mail">
                   kristin@grainandmortar.com
-               </div>
+               </p>
             </div>
             <div class="col">
-               <div>
-                  <img src="photo4.jpg" alt="img4">
-               </div>
-               <div class="name">
+               <img src="photo4.jpg" alt="img4">
+               <p class="name">
                   MIRANDA BOUCK
-               </div>
-               <div class="position">
+               </p>
+               <p class="position">
                   Designer
-               </div>
-               <div class="mail">
+               </p>
+               <p class="mail">
                   miranda@grainandmortar.com
-               </div>
+               </p>
             </div>
             <div class="col">
-               <div>
-                  <img src="photo5.jpg" alt="img5">
-               </div>
-               <div class="name">
+               <img src="photo5.jpg" alt="img5">
+               <p class="name">
                   JESSE HARDING
-               </div>
-               <div class="position">
+               </p>
+               <p class="position">
                   Designer
-               </div>
-               <div class="mail">
+               </p>
+               <p class="mail">
                   jesse@grainandmortar.com
-               </div>
+               </p>
             </div>
          </div>
       </main>
